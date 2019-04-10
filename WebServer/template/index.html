@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.style{
+	outline: none;
+	border-radius: 50px;
+	padding: 40px 80px;
+	font-size: 16px;
+	font-style: bold;
+	font-size: 20px
+}
+
+.style-ripple:active{
+	opacity:0.2;
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	outline: none;
+}
+
+.style-ripple{
+	transition:opacity 0s;
+}
+
+.style-container{
+	text-align: center;
+	font-size: 70px
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  outline: none;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+</style>
+<body>
+
+<div class="style-container">
+<h2>Choose your crop</h2>
+<p>
+	<form action="RTomato">
+		<button class="style style-ripple button2">Tomato</button>
+	</form>
+	<form action="RPotato">
+		<button class="style style-ripple button3">Potato</button>
+	</form>
+</p>
+</div>
+
+</body>
+</html>

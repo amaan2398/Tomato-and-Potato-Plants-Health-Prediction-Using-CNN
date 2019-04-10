@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LeafSnapNet</string>
+    <string name="potato">POTATO</string>
+    <string name="tomato">TOMATO</string>
+    <string name="loadImage">LOAD IMAGE</string>
+    <string name="camera">CAMERA</string>
+    <string name="submit">SUBMIT</string>
+</resources>
